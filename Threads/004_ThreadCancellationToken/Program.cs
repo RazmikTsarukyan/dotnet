@@ -7,9 +7,8 @@
         //Pass the CancellationToken and the number-to-count into the operation
         ThreadPool.QueueUserWorkItem(o => Count(cts.Token, 1000));
 
-        Thread.Sleep(3000);
+        Thread.Sleep(5000);
         cts.Cancel();
-
         Console.ReadLine();
     }
 
