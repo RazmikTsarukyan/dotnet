@@ -30,9 +30,9 @@ public class CancellationTokenRegisterProgram
         cts2.Cancel();
 
         // Display wich cancalationTokenSource objects are cancaled
-        Console.WriteLine("cts1 cancaled={0}, cts2 cancaled={1}, linkedCts cancaled={2}", 
-            cts1.IsCancellationRequested, 
-            cts2.IsCancellationRequested, 
+        Console.WriteLine("cts1 cancaled={0}, cts2 cancaled={1}, linkedCts cancaled={2}",
+            cts1.IsCancellationRequested,
+            cts2.IsCancellationRequested,
             linkedCts.IsCancellationRequested);
     }
 }
