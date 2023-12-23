@@ -7,7 +7,7 @@ public class TaskCancelationProgram
         CancellationTokenSource cts = new CancellationTokenSource();
         Task<int> t = Task.Run(() => Sum(cts.Token, 1000000000), cts.Token);
 
-        //Thread.Sleep(5000);
+        Thread.Sleep(5000);
 
         // Sometime later, cancel the CancellationTokenSource to co cancel the Task
         cts.Cancel(); // This is an asynchronous request, The thask may have complated already
@@ -46,4 +46,5 @@ public class TaskCancelationProgram
 
         return sum;
     }
+    //rest
 }
