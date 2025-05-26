@@ -3,8 +3,6 @@
     static int counter = 0;
     public static void Main()
     {
-        Console.WriteLine("Hi");
-
         Thread thread1 = new Thread(IncrementCounter);
         Thread thread2 = new Thread(IncrementCounter);
 
@@ -15,7 +13,6 @@
         thread2.Join();
 
         Console.WriteLine($"Final counter value is:{counter}");
-
         Console.ReadLine();
     }
 
