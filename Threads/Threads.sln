@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "003_ThreadPool", "003_Threa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "004_ThreadCancellationToken", "004_ThreadCancellationToken\004_ThreadCancellationToken.csproj", "{B78451B4-B2B3-4908-8C36-56796B6ACB3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005_ThreadCancellationTokenRegister", "005_ThreadCancellationTokenRegister\005_ThreadCancellationTokenRegister.csproj", "{0D3D4C6C-5185-4F4D-BB34-59C861F933D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "005_ThreadCancellationTokenRegister", "005_ThreadCancellationTokenRegister\005_ThreadCancellationTokenRegister.csproj", "{0D3D4C6C-5185-4F4D-BB34-59C861F933D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "006_Threads_Synchronization", "006_Threads_Synchronization\006_Threads_Synchronization.csproj", "{07E6D02A-F00E-4D10-80B0-49CADBEB9243}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{0D3D4C6C-5185-4F4D-BB34-59C861F933D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D3D4C6C-5185-4F4D-BB34-59C861F933D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D3D4C6C-5185-4F4D-BB34-59C861F933D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07E6D02A-F00E-4D10-80B0-49CADBEB9243}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07E6D02A-F00E-4D10-80B0-49CADBEB9243}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07E6D02A-F00E-4D10-80B0-49CADBEB9243}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07E6D02A-F00E-4D10-80B0-49CADBEB9243}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
