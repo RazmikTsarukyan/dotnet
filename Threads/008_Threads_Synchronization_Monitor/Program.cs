@@ -35,3 +35,5 @@
 
 //The lock statement is a language-level shortcut (syntactic sugar) for using Monitor.Enter and Monitor.Exit.
 //Instead of lock compiler generates code like IncrementCounter's monitor section with Monitor.Enter, try finally and Monitor.Exit.
+//Monitor also provides additional functionality that is not available when using lock, such as Monitor.Enter, Monitor.Exit,
+//Monitor.Wait, Monitor.Pulse, Monitor.PulseAll, and timeout support with Monitor.TryEnter
