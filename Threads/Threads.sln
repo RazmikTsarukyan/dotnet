@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "006_Threads_Synchronization
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "007_Threads_Synchronization_Lock", "007_Threads_Synchronization_Lock\007_Threads_Synchronization_Lock.csproj", "{84BAEFB1-6924-4420-9259-CD2263CE21D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "008_Threads_Synchronization_Monitor", "008_Threads_Synchronization_Monitor\008_Threads_Synchronization_Monitor.csproj", "{88FD7ACC-CFC5-4CAE-8618-7686C8010414}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{84BAEFB1-6924-4420-9259-CD2263CE21D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84BAEFB1-6924-4420-9259-CD2263CE21D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84BAEFB1-6924-4420-9259-CD2263CE21D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88FD7ACC-CFC5-4CAE-8618-7686C8010414}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88FD7ACC-CFC5-4CAE-8618-7686C8010414}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88FD7ACC-CFC5-4CAE-8618-7686C8010414}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88FD7ACC-CFC5-4CAE-8618-7686C8010414}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
