@@ -49,3 +49,8 @@
         }
     }
 }
+
+//We use a Monitor when synchronizing threads within the same application or process,
+//but if synchronization is needed between different processes, we should use a Mutex.
+//A process is an instance of a running application. Each process has its own memory space and resources.
+//A thread is a smaller unit of execution within a process. All threads in the same process share memory.
