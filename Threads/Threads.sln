@@ -13,15 +13,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "004_ThreadCancellationToken
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "005_ThreadCancellationTokenRegister", "005_ThreadCancellationTokenRegister\005_ThreadCancellationTokenRegister.csproj", "{0D3D4C6C-5185-4F4D-BB34-59C861F933D6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "006_Threads_Synchronization", "006_Threads_Synchronization\006_Threads_Synchronization.csproj", "{07E6D02A-F00E-4D10-80B0-49CADBEB9243}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "006_Threads_Synchronization", "006_Threads_Synchronization\006_Threads_Synchronization.csproj", "{07E6D02A-F00E-4D10-80B0-49CADBEB9243}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "007_Threads_Synchronization_Lock", "007_Threads_Synchronization_Lock\007_Threads_Synchronization_Lock.csproj", "{84BAEFB1-6924-4420-9259-CD2263CE21D3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "007_Threads_Synchronization_Lock", "007_Threads_Synchronization_Lock\007_Threads_Synchronization_Lock.csproj", "{84BAEFB1-6924-4420-9259-CD2263CE21D3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "008_Threads_Synchronization_Monitor", "008_Threads_Synchronization_Monitor\008_Threads_Synchronization_Monitor.csproj", "{88FD7ACC-CFC5-4CAE-8618-7686C8010414}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "008_Threads_Synchronization_Monitor", "008_Threads_Synchronization_Monitor\008_Threads_Synchronization_Monitor.csproj", "{88FD7ACC-CFC5-4CAE-8618-7686C8010414}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "009_Threads_Synchronization_Mutex", "009_Threads_Synchronization_Mutex\009_Threads_Synchronization_Mutex.csproj", "{A81CD0C0-8115-4158-BB43-206F68748901}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "009_Threads_Synchronization_Mutex", "009_Threads_Synchronization_Mutex\009_Threads_Synchronization_Mutex.csproj", "{A81CD0C0-8115-4158-BB43-206F68748901}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "010_Threads_Synchronization_Semaphore", "010_Threads_Synchronization_Semaphore\010_Threads_Synchronization_Semaphore.csproj", "{C7112F9A-984A-42DB-9FF1-03317C5285FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "011_Threads_Synchronization_ManualResetEvent", "011_Threads_Synchronization_ManualResetEvent\011_Threads_Synchronization_ManualResetEvent.csproj", "{C02A621B-BD2C-4912-9275-520ECED34631}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{C7112F9A-984A-42DB-9FF1-03317C5285FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7112F9A-984A-42DB-9FF1-03317C5285FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7112F9A-984A-42DB-9FF1-03317C5285FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C02A621B-BD2C-4912-9275-520ECED34631}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C02A621B-BD2C-4912-9275-520ECED34631}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C02A621B-BD2C-4912-9275-520ECED34631}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C02A621B-BD2C-4912-9275-520ECED34631}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
